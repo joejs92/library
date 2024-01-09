@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="source.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <p>LIBRARY</p>
+        </div>
+        <div class="bottom">
+            <div class="left"></div>
+            <div class="right">
+                <p>ADD A BOOK</p>
+                <ul>
+                    <li>
+                        <label for="author">Author</label><br>
+                        <input type="text" id="author" name="author" />
+                    </li>
+                    <li>
+                        <label for="title">Title</label><br>
+                        <input type="text" id="title" name="title" />
+                    </li>
+                    <li>
+                        <label for="page_number">Number of Pages</label><br>
+                        <input type="number" id="page_number" name="page_number" />
+                    </li>
+                    <li>
+                        <label for="read">Previously Read</label><br>
+                        <select id="read" name="read">
+                            <option value="Yes">Yes</option>
+                            <option value="No">No</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="comments">Comments</label><br>
+                        <textarea id="comments" rows="10" cols="30"></textarea>
+                    </li>
+                </ul>
+                <button>NEW BOOK</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
